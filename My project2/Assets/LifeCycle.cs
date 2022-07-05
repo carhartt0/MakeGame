@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Unity Object의 생명주기
 public class LifeCycle : MonoBehaviour
 {
     //Awake 함수는 프로그램이 시작될 때 딱 한번만 실행됨

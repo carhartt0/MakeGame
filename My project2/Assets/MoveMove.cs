@@ -6,6 +6,12 @@ public class MoveMove : MonoBehaviour
 {
     void Start()
     {
+        //Time.deltaTime 사용하는 방법
+        //Translate : 벡터에 곱하기
+        //transform.Translate(Vec* Time.deltaTime);
+        //Vector 함수 : 시간 매개변수에 곱하기
+        //Vector3.Lerp(Vec1, Vec2, T*Time.deltaTime);
+
         /* Vector3 vec = new Vector3(5, 0, 0);     //크기 방향 모두 가진값 : 벡터 값,,, 크기만 가진 값 : 스칼라 값
         //Translate : 벡터 값을 현재 위치에 더하는 함수
         transform.Translate(vec); */
@@ -15,7 +21,7 @@ public class MoveMove : MonoBehaviour
     void Update()
     {
         //Vector3 vec = new Vector3(0, 0.1f, 0);
-        Vector3 vec = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        Vector3 vec = new Vector3(Input.GetAxis("Horizontal") * Time.deltaTime, Input.GetAxis("Vertical") * Time.deltaTime, 0);
         transform.Translate(vec);
 
         //Input : 게임 내 입력을 관리하는 클래스, anyKeyDown : 아무 입력을 최초로 받을 때 true
