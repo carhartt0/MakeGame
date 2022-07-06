@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 56
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,14 +120,14 @@ MonoBehaviour:
     y: 561
     width: 1466
     height: 386
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 68
+  controlID: 86
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 69
+  controlID: 87
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/1Scenes
+    - Assets/3Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/1Scenes
+  - Assets/3Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\PKNU\Documents\GitHub\MakeGame\SimpleGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 345a0000
-    m_LastClickedID: 23092
-    m_ExpandedIDs: 000000002a5a000000ca9a3b
+    m_SelectedIDs: 925a0000
+    m_LastClickedID: 23186
+    m_ExpandedIDs: 00000000805a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a5a0000
+    m_ExpandedIDs: 00000000805a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b2b8fdff02b9fdff04b9fdff08b9fdff0cb9fdff10b9fdff14b9fdffd8bbfdff28bcfdff2abcfdff2ebcfdff32bcfdff36bcfdff3abcfdffb4bdfdff04befdff1ebffdff28bffdff30bffdff38bffdff40bffdff54c1fdff00c9fdff0ecbfdffd4d9fdffccdbfdff5851feff4e52feffb252feffac5efeffea5ffeff8e60feff00cbfeffe0cbfeff98ccfeff08cffeff7ed0feff2cd1feff0addfeff9adffeffe0dffeffb4e0fefffce0feff9a05ffff1e06ffff7006ffffce08ffff7c0afffffe0cffff9e0ffffff611ffff4213ffff1414ffff6419fffff21affff4e1bffffb61bffff021cffffb81cffff9e1dffffe61dffff421effff8e1effffda1effff1a1fffff3e20ffffa222ffff4624ffffd224ffff3c25ffff5a6cffff406dffff846dffffd06dffff346effff986effffdc6effff9072ffff6e9bffffba9bfffffc9dffff489effff949effffa8dfffffb4e0ffff08e3ffffc2e3ffff36fbffff28920000
+      m_SelectedIDs: 3a5e0000
+      m_LastClickedID: 24122
+      m_ExpandedIDs: dcf5ffffc0f6ffff4cf7ffff68f8ffff22faffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.0234113, y: -0.91932774, z: 13.985758}
+    m_Target: {x: 5.2353997, y: 7.675046, z: 27.944426}
     speed: 2
-    m_Value: {x: 1.0234113, y: -0.91932774, z: 13.985758}
+    m_Value: {x: 5.2353997, y: 7.675046, z: 27.944426}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -790,11 +790,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.19801831, y: -0.46285042, z: 0.107210755, w: 0.8574854}
     speed: 2
-    m_Value: {x: 0.19799681, y: -0.46280017, z: 0.10719911, w: 0.8573923}
+    m_Value: {x: -0.19801831, y: 0.46285045, z: -0.10721075, w: -0.8574854}
   m_Size:
-    m_Target: 10.193554
+    m_Target: 20.49366
     speed: 2
-    m_Value: 10.193554
+    m_Value: 21.45933
   m_Ortho:
     m_Target: 1
     speed: 2
